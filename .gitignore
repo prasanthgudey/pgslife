@@ -1,0 +1,14 @@
+# Node modules
+pgslife-frontend/node_modules/
+pgslife-backend/node_modules/
+
+# Environment files
+pgslife-frontend/.env
+pgslife-backend/.env
+
+# Build files
+pgslife-frontend/dist/
+pgslife-backend/build/
+
+# Logs
+*.log
