@@ -23,7 +23,7 @@ const HotelPage = () => {
     window.scrollTo(0, 0);
     const fetchHotel = async () => {
       try {
-        const res = await axios.get(`http://localhost:5000/api/hotels/${id}`);
+        const res = await axios.get(`https://pgslife.onrender.com/api/hotels/${id}`);
         const data = {
           ...res.data,
           description: staticDescription,
